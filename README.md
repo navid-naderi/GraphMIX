@@ -23,7 +23,7 @@ The requirements.txt file can be used to install the necessary packages into a v
 
 ## Run an experiment 
 
-Use the following command to run GraphMIX on any desired SMAC map (e.g., corridor in the example below):
+Use the following command to run GraphMIX on any desired SMAC map (e.g., `corridor` in the example below):
 
 ```shell
 python3 src/main.py --config=graphmix --env-config=sc2 with \
@@ -31,7 +31,7 @@ env_args.map_name=corridor lambda_local=1 test_interval=20000 test_nepisode=32 \
 t_max=5000000 epsilon_anneal_time=500000
 ```
 
-The parameter lambda_local represents the local loss coefficient in the GraphMIX objective function.
+The parameter `lambda_local` represents the local loss coefficient in the GraphMIX objective function.
 
 All results will be stored in the `results` folder.
 
