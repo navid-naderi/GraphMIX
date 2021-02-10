@@ -21,7 +21,7 @@ This will download SC2 into the 3rdparty folder and copy the maps necessary to r
 
 The requirements.txt file can be used to install the necessary packages into a virtual environment (not recomended).
 
-## Run an experiment 
+## Running an experiment 
 
 Use the following command to run GraphMIX on any desired SMAC map (e.g., `corridor` in the example below):
 
