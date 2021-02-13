@@ -45,3 +45,15 @@ You can save the learnt models to disk by setting `save_model = True`, which is 
 
 Learnt models can be loaded using the `checkpoint_path` parameter, after which the learning will proceed from the corresponding timestep. 
 
+##
+
+If you use this repository in your work, please cite the accompanying paper using the BibTeX citation below:
+
+```
+@article{naderializadeh2020graph,
+  title={Graph Convolutional Value Decomposition in Multi-Agent Reinforcement Learning},
+  author={Naderializadeh, Navid and Hung, Fan H and Soleyman, Sean and Khosla, Deepak},
+  journal={arXiv preprint arXiv:2010.04740},
+  year={2020}
+}
+```
